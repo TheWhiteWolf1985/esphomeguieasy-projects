@@ -13,11 +13,17 @@ Each project includes:
 
 ## 📁 Repository Structure
 progetti/
+
 ├── smart-dht/
+
 │ ├── info.json
+
 │ ├── config.yaml
+
 │ └── screenshot.png
+
 ├── energy-meter/
+
 │ └── ...
 
 
