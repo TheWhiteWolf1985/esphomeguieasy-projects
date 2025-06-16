@@ -1,0 +1,28 @@
+esphome:
+  name: dht22_node
+  friendly_name: DHT22 Sensor
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+wifi:
+  ssid: "your_wifi_ssid"
+  password: "your_wifi_password"
+
+logger:
+
+api:
+
+ota:
+
+sensor:
+  - platform: dht
+    model: DHT22
+    pin: 4
+    update_interval: 60s
+    temperature:
+      name: "Room Temperature"
+    humidity:
+      name: "Room Humidity"
