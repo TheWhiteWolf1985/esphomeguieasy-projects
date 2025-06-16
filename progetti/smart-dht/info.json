@@ -1,5 +1,7 @@
 {
   "label": "DHT22 Temperature & Humidity",
+  "version": 1.0,
+  "last_update": 16-06-25,
   "author": "Juri",
   "description": "A simple ESPHome project using a DHT22 sensor to monitor temperature and humidity via ESPHomeGuiEasy.",
   "language": "en",
