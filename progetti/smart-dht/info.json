@@ -1,5 +1,9 @@
 {
-  "label": "Smart DHT Project",
+  "label": "DHT22 Temperature & Humidity",
   "author": "Juri",
-  "description": "Esempio di sensore DHT22 configurato via ESPHomeGuiEasy"
+  "description": "A simple ESPHome project using a DHT22 sensor to monitor temperature and humidity via ESPHomeGuiEasy.",
+  "language": "en",
+  "tags": ["sensor", "dht22", "temperature", "humidity", "basic"],
+  "filename": "config.yaml",
+  "screenshot": "screenshot.png"
 }
