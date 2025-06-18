@@ -1,0 +1,21 @@
+esphome:
+  name: alarm_switch
+  friendly_name: Alarm Switch
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+
+binary_sensor:
+  - platform: gpio
+    pin: GPIO12
+    name: "Porta Aperta"
+    device_class: door
+
+switch:
+  - platform: gpio
+    pin: GPIO14
+    name: "Sirena"
