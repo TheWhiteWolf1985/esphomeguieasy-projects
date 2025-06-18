@@ -1,0 +1,18 @@
+esphome:
+  name: energy_meter
+  friendly_name: Energy Meter
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+
+sensor:
+  - platform: adc
+    pin: GPIO36
+    name: "Corrente AC"
+    update_interval: 10s
+    unit_of_measurement: "A"
+    accuracy_decimals: 2
