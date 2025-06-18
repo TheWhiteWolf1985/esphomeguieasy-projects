@@ -1,11 +1,8 @@
 {
-  "label": "DHT22 Temperature & Humidity",
-  "version": 1.0,
-  "last_update": 16-06-25,
+  "name": "Smart DHT",
   "author": "Juri",
-  "description": "A simple ESPHome project using a DHT22 sensor to monitor temperature and humidity via ESPHomeGuiEasy.",
-  "language": "en",
-  "tags": ["sensor", "dht22", "temperature", "humidity", "basic"],
-  "filename": "config.yaml",
-  "screenshot": "screenshot.png"
+  "version": "1.0",
+  "update": "2025-06-17",
+  "category": "Home Monitoring",
+  "description": "Controllo temperatura e umidit\u00e0 con LED di stato e messaggi via log."
 }

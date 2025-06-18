@@ -1,0 +1,30 @@
+esphome:
+  name: smart_dht
+  friendly_name: Smart DHT
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+
+sensor:
+  - platform: dht
+    pin: GPIO4
+    temperature:
+      name: "Temperatura"
+    humidity:
+      name: "Umidità"
+    model: DHT22
+    update_interval: 30s
+
+output:
+  - platform: gpio
+    pin: GPIO2
+    id: led
+
+binary_sensor:
+  - platform: gpio
+    pin: GPIO5
+    name: "Pulsante Reset"
